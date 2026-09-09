@@ -1,5 +1,0 @@
-nome  = " Marcos"
-idada = 50
-nota =9,5
-aprovado = true
-
