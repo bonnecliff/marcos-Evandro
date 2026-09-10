@@ -8,8 +8,8 @@ elif quantidade <= 5:
 elif quantidade <=20: 
     estoque = "Estoque baixo!"
 else:
-    quantidade >=21
-    estoque = "Estoque normal"
+    quantidade>=21
+    estoque = "Estoque normal!"
 
 print(f"nome: {nome}")  
 print(f"quantidade: {quantidade}")
