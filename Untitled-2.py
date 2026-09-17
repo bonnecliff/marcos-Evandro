@@ -17,13 +17,13 @@ if opcao == "1":
             print("----- LIVRO", livro + 1, "-----")
 
             codigo = input("Código do livro: ")
+
             if codigo == "":
                 print("Código do livro não informado.")
-                codigo = input("Código do livro: ")
 
-            
             else:
-                titulo = ("Digite o titulo do livro")
+                titulo = input("Título do livro: ")
+
                 if titulo == "":
                     print("O título do livro não pode ficar vazio.")
 
@@ -71,37 +71,3 @@ elif opcao == "2":
 
                 else:
                     turma = input("Turma: ")
-
-                    if turma == "":
-                        print("A turma não pode ficar vazia.")
-
-                    else:
-                        print("Aluno cadastrado com sucesso!")
-
-elif opcao == "3":
-
-        print("----- EMPRÉSTIMO -----")
-
-        codigo_livro = input("Código do livro: ")
-
-        if codigo_livro == "":
-            print("Código do livro não informado.")
-
-        else:
-            matricula_aluno = input("Matrícula do aluno: ")
-
-            if matricula_aluno == "":
-                print("Matrícula do aluno não informada.")
-            else:
-                quantidade_disponivel = int(input("Quantidade disponível: "))
-
-                if quantidade_disponivel > 0:
-                    print("Empréstimo realizado com sucesso!")
-
-                else:
-                    print("Não é possível realizar o empréstimo.")
-elif opcao == "4":
-    print("----- PROGRAMA ENCERRADO -----")
-else:
-    print("oPÇÃO INVÁLIDA, DIGITE UM NUMERO ENTRE 1,2,3, E 4")
-    print()
