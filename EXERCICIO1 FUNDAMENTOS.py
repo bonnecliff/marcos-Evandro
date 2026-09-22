@@ -1,0 +1,6 @@
+print()
+print(" EXERCICIO DEFUNDAMENTOS ")
+print()
+print("ola turma! ")
+print(" nome do curso ")
+print("estou começando  a programar em python!")
