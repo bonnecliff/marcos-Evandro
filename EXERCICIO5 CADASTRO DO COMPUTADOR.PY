@@ -10,5 +10,5 @@ valor = 200000
 print("marca" ,marca)
 print("modelo" , modelo)
 print("memoria_gb" , memoria_gb, "GB")
-print("amarzenamento:" ,"Armazenamento_gb" "GB")
+print("armazenamento:" , armazenamento_gb, "GB" )
 print("valor: R$" , valor)
